@@ -1,0 +1,77 @@
+body{
+  display: flex;
+  border: 10px black;
+  padding: 30px;
+  margin: auto;
+}
+.name_title{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height:750px;
+  color: white;
+  background-color: black;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: pink;
+}
+.name_title:hover{
+  background-color: white;
+  color: black;
+}
+.complemtary{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height:800px;
+}
+.red_green{
+  display: flex;
+  height: 250px;
+  background-color: red;
+  color: green;
+
+}
+.red_green:hover{
+  background-color: green;
+  color: red;
+}
+.blue_orange{
+  display: flex;
+  height: 250px;
+  background-color: blue;
+  color: orange;
+}
+.blue_orange:hover{
+  background-color: orange;
+  color: blue;
+}
+.purp_yell{
+  display: flex;
+  height: 250px;
+  background-color: yellow;
+  color: purple;
+}
+.purp_yell:hover{
+  background-color: purple;
+  color:yellow;
+}
+*{
+  font-family: 'Raleway', sans-serif;
+}
+.name_title h1{
+  transform: rotate(-90deg);
+  font-size: 80px;
+}
+.purp_yell,.red_green, .blue_orange, h2{
+  justify-content: center;
+  align-items: center;
+}
